@@ -54,6 +54,12 @@ body {
     color: #000;
 }
 
+@media screen and (max-width: 756px) {
+    .container {
+        padding: 0 25px;
+    }
+  }
+
 /* our services */
 
 .our__services {
@@ -88,9 +94,11 @@ body {
     height: 178.56px;
     margin-top: 120px;
 }
+
 .our__services-img {
     width: 50px;
     height: 50px;
+    fill: #4694DC;
 }
 .service__card-p {
     font-family: "Montserrat", sans-serif;
@@ -98,6 +106,26 @@ body {
     font-size: 16px;
     margin-top: 25px;
 }
+
+@media screen and (max-width: 756px) {
+    .container {
+        padding: 0 25px;
+    }
+
+    .our__services-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our__services-card:nth-child(1) {
+        margin-top: 100px;
+    }
+
+    .our__services-card {
+        margin-top: 0;
+    }
+
+  }
 
 /* team */
 
@@ -158,3 +186,25 @@ body {
     font-size: 11px;
     margin-top: 5px;
 }
+
+@media screen and (max-width: 756px) {
+    .container {
+        padding: 0 25px;
+    }
+
+    .team__flex {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .team__card:nth-child(1) {
+        margin-top: 50px;
+    }
+
+    .team__card {
+        margin: 0;
+        padding: 0;
+    }
+
+  }
