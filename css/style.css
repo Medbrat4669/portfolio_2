@@ -60,6 +60,12 @@ body {
     }
   }
 
+@media screen and (max-width: 350px) {
+    .header__title {
+        font-size: 36px;
+    }
+}
+
 /* our services */
 
 .our__services {
